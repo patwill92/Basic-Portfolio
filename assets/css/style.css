@@ -1,0 +1,159 @@
+.header{
+height:10%;
+background:#ffffff;
+width:100%;
+position:relative;
+}
+body{
+height:100vh;
+width:100vw;
+margin:0;
+background-image: url("../images/vintage-leaves.png");
+}
+.myName{
+position:absolute;
+left:10%;
+bottom:0%;
+width:auto;
+height:100%;
+font-size:20px;
+background:blue;
+padding:0% 1% 0% 1%;
+text-align:center;
+overflow: visible;
+display: table;
+
+
+}
+.auto{
+width:100%;
+height:100%;
+}
+.child{
+	
+	text-align: center;
+	color:white;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.rightmargin{
+position: absolute;
+right:10%;
+bottom:0%;
+height:auto;
+width: auto;
+text-align:center;
+
+
+}
+
+a{
+	margin:0px 3px 0px 3px;
+
+}
+#maincontent{
+width:100%;
+height: 80%;
+border-style:solid;
+border-color:black;
+border-width:1px;
+position:relative;
+}
+.smallimage{
+height:50px;
+width: 50px;
+float:left;
+
+}
+figure{
+
+    display:inline-block;
+    margin:0%;
+    padding:5px;
+    border-radius: 0%;
+
+}
+
+#box1{
+position:absolute;
+left:10%;
+top:4%;
+border-style: solid;
+border-color: black;
+border-width:1px;
+height:auto;
+width:40%;
+padding:1%;
+background:white;
+}
+.message{
+
+   display:inline-block;
+   width:500px;
+   height:200px;
+
+}
+#box2{
+position:absolute;
+right:15%;
+top:4%;
+border-style: solid;
+border-color: black;
+border-width:1px;
+height:auto;
+width:16%;
+padding:1%;
+text-align:center;
+background:white;
+}
+input
+    {
+        font-family: Garamond, serif;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.5);
+        border-color: black;
+        border-width: 1px;
+    }
+
+ #subbox{
+position: absolute;
+top:0%;
+border-bottom:solid;
+border-bottom-color: gray;
+ }
+  #subbox2{
+position: absolute;
+top:15%;
+ }
+ button{
+display:block;
+margin: 10px 0px 10px 0px;
+
+ }
+h3{
+border-bottom-style: solid;
+border-bottom-color: #d3d3d3;
+border-width: 1px;
+padding: 10px 0px 10px 0px;
+display:inline-block;
+margin:0px;
+}
+div{
+    display:block;
+}
+.footer{
+text-align:center;
+display:table;
+vertical-align: center;
+height:10%;
+background:#ffffff;
+width:100%;
+position:relative;
+}
+.copyright{
+display:table-cell;
+vertical-align: center;
+text-align:center;
+}
